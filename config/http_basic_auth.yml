@@ -1,0 +1,6 @@
+development:
+  name: "vishal"
+  password: "123456"
+production:
+  name: <%= ENV['HTTP_BASIC_AUTH_NAME'] %>
+  password: <%= ENV['HTTP_BASIC_AUTH_PASSWORD'] %>
